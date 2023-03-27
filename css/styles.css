@@ -143,6 +143,15 @@ body {
   background-color: var(--tittle-color);
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/office.jpg');
+  background-position: center;
+  margin: 0 auto;
 }
 .hero-tittle {
   font-size: 56px;
@@ -201,6 +210,17 @@ body {
 .skill-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.skill-icon {
+  display: flex;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+}
+.icon-group {
+  margin: auto;
 }
 /* Examples */
 
