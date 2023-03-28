@@ -213,14 +213,17 @@ body {
 }
 
 .skill-icon {
-  display: flex;
   width: 264px;
   height: 112px;
   background: #f4f4fd;
   margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.icon-group {
-  margin: auto;
+.icon-item {
+  width: 64px;
+  height: 64px;
 }
 /* Examples */
 
@@ -288,7 +291,32 @@ body {
 .team-list .item {
   width: calc((100% - 72px) / 4);
 }
-
+.soc-media-list {
+  display: flex;
+  gap: 24px;
+}
+.soc-link {
+  background-color: var(--accent-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.soc-link:hover,
+.soc-link:focus {
+  background-color: #ffffff;
+}
+.soc-icon {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
+}
+.soc-icon:hover,
+.soc-icon:focus {
+  fill: var(--accent-color);
+}
 /* Footer */
 .footer-section {
   background-color: var(--tittle-color);
